@@ -55,7 +55,9 @@ The Jupyter Notebook contains the following key analyses:
 ## How to Use
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/Ambigapathi-V/Diwali-Sales-Analysis.git ```
+   git clone https://github.com/vivjori115/Diwali_Sales-Data-Analysis.git
+    ```
+   
 2. Ensure you have Python installed with the required libraries:
 ```bash
 pip install pandas matplotlib seaborn
