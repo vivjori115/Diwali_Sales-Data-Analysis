@@ -8,8 +8,7 @@
 5. [Technologies Used](#technologies-used)  
 6. [How to Use](#how-to-use)    
 7. [Future Enhancements](#future-enhancements)  
-8. [Contributors](#contributors)  
-9. [License](#license)  
+8. [Contributors](#contributors)   
 
 ---
 
@@ -72,11 +71,8 @@ Integration of machine learning models to predict future sales trends.
 Addition of more demographic variables for detailed customer segmentation.
 Incorporation of time-series analysis for forecasting.
 ## Contributors
-Ambigapathi V
-Data Scientist specializing in NLP and data visualization.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+Vivek Jori
+Data Scientist,Data Anylist and Sql Devloper.
 
 ## Steps to Use
 Save the above content in a file named README.md in your project folder.
