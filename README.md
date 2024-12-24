@@ -1,4 +1,4 @@
-# 🏡 Real Estate Price Prediction Web Application
+# Diwali Sales Analysis
 
 ## Table of Contents
 1. [Introduction](#introduction)  
@@ -6,95 +6,84 @@
 3. [Dataset Overview](#dataset-overview)  
 4. [Analysis Highlights](#analysis-highlights)  
 5. [Technologies Used](#technologies-used)  
-6. [How to Use](#how-to-use)     
-7. [Contributors](#contributors)  
-8. [Input Parameters](#inputParameters)  
+6. [How to Use](#how-to-use)    
+7. [Future Enhancements](#future-enhancements)  
+8. [Contributors](#contributors)  
+
+
 ---
 
 ## Introduction
-This project is a web-based application designed to predict real estate prices based on user input. It uses a machine learning model trained on location-based data such as distance to MRT stations, number of convenience stores, and geographical coordinates (latitude and longitude). The application is built with Streamlit and leverages a Linear Regression model for making predictions.
+This project analyzes Diwali sales data to uncover trends, insights, and actionable recommendations for improving sales performance during the festival season. By leveraging data visualization and statistical analysis, this project aims to provide a comprehensive understanding of customer behavior and sales performance.
 
 ---
 
 ## Project Objective
-The primary objectives of this project are:
-- To provide an estimate of real estate prices based on key location-based factors.
-- To offer a quick, user-friendly tool for property price estimation.
-- To use a machine learning model to predict prices per unit area based on user inputs.
+The primary objectives of this analysis are:
+- To identify the most profitable customer segments.  
+- To analyze sales patterns across different regions and product categories.  
+- To provide insights into customer purchasing behavior during the Diwali season.  
+- To recommend strategies for optimizing sales and profitability.  
 
 ---
 
 ## Dataset Overview
-The dataset used for this analysis includes the following features:
-- **Distance to the nearest MRT station** (in meters)
-- **Number of convenience stores** nearby
-- **Latitude** (geographical coordinate)
-- **Longitude** (geographical coordinate)
-
-The model is trained using this data to predict house prices per unit area.
+The dataset used for this analysis includes the following attributes:
+- **Customer Information**: Age group, gender, and marital status.  
+- **Sales Data**: Product category, sub-category, and purchase amount.  
+- **Regional Data**: State and city-wise sales distribution.  
+- **Festive Insights**: Purchase patterns during Diwali.  
 
 ---
 
 ## Analysis Highlights
-- **Price Prediction**: Predicts house prices based on user inputs.
-- **User Input Interface**: A simple and interactive interface built with Streamlit.
-- **Machine Learning**: Uses Linear Regression to provide price predictions.
-- **Geographical Analysis**: Factors in location-based data such as distance to MRT stations and the number of nearby convenience stores.
+The Jupyter Notebook contains the following key analyses:
+1. **Customer Insights**: Breakdown of sales by gender, age group, and marital status.  
+2. **Regional Sales**: Top-performing states and cities.  
+3. **Category Analysis**: Performance of product categories and sub-categories.  
+4. **Revenue Insights**: Identification of high-revenue customers and products.  
+5. **Visualization**: Use of bar charts, pie charts, and heatmaps to present data trends.  
 
 ---
 
 ## Technologies Used
-- **Python**: Programming language for building the application.
-- **Streamlit**: Framework for building the web interface.
-- **Scikit-learn**: Machine learning library for building the Linear Regression model.
-- **Pandas**: For data handling and manipulation.
-- **NumPy**: For numerical operations.
+- **Jupyter Notebook**: For executing the analysis and creating visualizations.  
+- **Python**: For data processing and analysis (libraries used include pandas, matplotlib, seaborn, etc.).  
+- **Dataset Format**: CSV or Excel for raw data input.  
 
 ---
 
-## How It Works
-The model is trained on a real estate dataset using Linear Regression to predict house prices per unit area based on the following features:
-- **Distance to the nearest MRT station** (in meters)
-- **Number of convenience stores** nearby
-- **Latitude** (geographical coordinate)
-- **Longitude** (geographical coordinate)
-
-The user inputs these values, and the app provides a predicted price based on the trained model.
-
----
-
-
-## Contributors
-- **Data Scientist, Data Analyst and sql Web Developer.**
-
-
-
-
-## Input Parameters
-The app takes the following inputs from the user:
-- **Distance to MRT Station (meters)**: Distance of the property from the nearest MRT station.
-- **Number of Convenience Stores**: Number of convenience stores located near the property.
-- **Latitude**: Latitude coordinate of the property.
-- **Longitude**: Longitude coordinate of the property.
-
----
-
-## Output
-The app will provide a predicted house price per unit area based on the inputs provided by the user.
-
----
-
-## ⚠ Note
-This model provides a basic price estimate and should be used as a preliminary reference. For more accurate real estate valuations, additional factors and professional consultation may be necessary.
-
----
-
-##  How to Run Locally
-
-1. Clone the repository:
+## How to Use
+1. Clone the repository to your local machine:
    ```bash
-   git clone <repository_url>
-   pip install -r requirements.txt
-   streamlit run app.py
+   git clone https://github.com/Ambigapathi-V/Diwali-Sales-Analysis.git ```
+2. Ensure you have Python installed with the required libraries:
+```bash
+pip install pandas matplotlib seaborn
+```
 
+3. Open the Jupyter Notebook:
+jupyter notebook Diwali_Sales_Analysis.ipynb
+Run the notebook cells to explore the analysis and visualizations.
+
+
+### Future Enhancements
+Integration of machine learning models to predict future sales trends.
+Addition of more demographic variables for detailed customer segmentation.
+Incorporation of time-series analysis for forecasting.
+
+---
+## Contributors
+Vivek Jori
+Data Scientist ,Data Anlyst and sql Developer 
+
+---
+
+## Steps to Use
+Save the above content in a file named README.md in your project folder.
+Add it to your Git repository:
+```bash
+git add README.md
+git commit -m "Add README file"
+git push origin main```
 
